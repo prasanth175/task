@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Mitsogo</title>
+</head>
+<body>
+    <div class="app-container">
+        <div class="dashboard">
+            <div class="logo-container">
+                <img class="logo" src="./images/logo.svg" alt="logo">
+            </div>
+            <ul class="dashboard-list">
+                <li class="dashboard-list-item">
+                    <img class="dashboard-icon" src="./images/icon_home.svg" alt="icons">
+                    <p class="dashboard-list-item-txt">Home</p>
+                </li>
+                <li class="dashboard-list-item item-selected">
+                    <img class="dashboard-icon" src="./images/icon_dashboard.svg" alt="icons">
+                    <p class="dashboard-list-item-txt">Dashboard</p>
+                </li>
+                <li class="dashboard-list-item">
+                    <img class="dashboard-icon" src="./images/icon_inbox.svg" alt="icons">
+                    <p class="dashboard-list-item-txt">Inbox</p>
+                </li>
+                <li class="dashboard-list-item">
+                    <img class="dashboard-icon" src="./images/icon_products.svg" alt="icons">
+                    <p class="dashboard-list-item-txt">Products</p>
+                </li>
+                <li class="dashboard-list-item">
+                    <img class="dashboard-icon" src="./images/icon_admin.svg" alt="icons">
+                    <p class="dashboard-list-item-txt">Admin</p>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="main-container" id="mainId">
+            <div class="header" id="headerId">
+                <div class="header-left-container">
+                    <button class="slide" id="slideId">
+                        <img class="menu-icon" src="./images/menu.png" alt="">
+                    </button>
+                    <div class="search-container">
+                        <img class="search-icon" src="./images/icon_search.svg" alt="">
+                        <input class="search-input" type="search" placeholder="Search transactions, invoices or help">
+                    </div>
+                </div>
+
+                <div class="header-right-container">
+                    <img class="right-search-icon" src="./images/icon_search.svg" alt="">
+                    <img class="bell-icon" src="./images/notification.svg" alt="">
+                    <select class="profile-info" name="profile" id="">
+                        <option value="" disabled selected>John Doe</option>
+                        <option value="">
+                            <img src="./images/icon-my-profile.svg" alt="">
+                            <p>My Profile</p>
+                        </option>
+                        <option value="">
+                            <img src="./images/icon-billing.svg" alt="">
+                            <p>Billing</p>
+                        </option>
+                        <option value="">
+                            <img src="./images/icon-logout.png" alt="">
+                            <p>Logout</p>
+                        </option>
+                    </select>
+                    <img class="profile-pic" src="./images/Avatar.png" alt="profile">
+                </div>
+            </div>
+            
+            <div class="details-container">
+                <div id="detailsInner">
+                    <div class="details-top-container">
+                        <h1>Overview</h1>
+                        <div class="add-funds-btn">
+                            <p class="add-txt">Add Funds</p>
+                            <img class="plus-icon" src="./images/plus.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="mobile-view-profile-details">
+                        <div class="profile-details">
+                            <div class="profile-main-details">
+                                <div class="details-profile-pic-container">
+                                    <img src="./images/profile.png" alt="">
+                                    <img class="edit-icon" src="./images/edit.svg" alt="edit-icon">
+                                </div>
+                                <h3 class="profile-name">Nick Herasimenka</h3>
+                                <p class="profile-country">United States</p>
+                                <div class="social-media-icons">
+                                    <img class="media-icon" src="./images/twitter.png" alt="twitter">
+                                    <img class="media-icon" src="./images/facebook.png" alt="facebook">
+                                    <img class="media-icon" src="./images/linkedin.png" alt="linkedin">
+                                    <img class="media-icon" src="./images/whatsapp.png" alt="whatsapp">
+                                </div>
+
+                            </div>
+
+                            <div>
+                                <div class="users-top-container">
+                                    <h1 class="user-heading">Our Users</h1>
+                                    <img src="./images/options.svg" alt="">
+                                </div>
+
+                                <div class="users-container">
+                                    <div class="each-user">
+                                        <img class="user-pic" src="./images/profile-pic.png" alt="">
+                                        <div>
+                                            <h4 class="user-name">Drew James</h4>
+                                            <p class="user-country">United States</p>
+                                        </div>
+                                    </div>
+                                    <p class="user-number">Mobile: 8715674877</p>
+                                </div>
+
+                                <div class="users-container">
+                                    <div class="each-user">
+                                        <img class="user-pic" src="./images/profile-pic.png" alt="">
+                                        <div>
+                                            <h4 class="user-name">Drew James</h4>
+                                            <p class="user-country">United States</p>
+                                        </div>
+                                    </div>
+                                    <p class="user-number">Mobile: 8715674877</p>
+                                </div>
+
+                                <div class="users-container">
+                                    <div class="each-user">
+                                        <img class="user-pic" src="./images/profile-pic.png" alt="">
+                                        <div>
+                                            <h4 class="user-name">Drew James</h4>
+                                            <p class="user-country">United States</p>
+                                        </div>
+                                    </div>
+                                    <p class="user-number">Mobile: 8715674877</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="details-content">
+                        <div class="details-left-container">
+                            <div class="graph-details">
+                                <div class="stat-graph">
+                                    <div class="stat-top-container">
+                                        <h1 class="stat-heading">Statistics</h1>
+                                        <select name="" id="">
+                                            <option value="">Last 6 months</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="sales-graph">Sales</div>
+                            </div>
+                            
+                            <div class="refer-table">Table</div>
+                        </div>
+                        <div class="details-right-container">
+                            <div class="profile-details">
+                                <div class="profile-main-details">
+                                    <div class="details-profile-pic-container">
+                                        <img src="./images/profile.png" alt="">
+                                        <img class="edit-icon" src="./images/edit.svg" alt="edit-icon">
+                                    </div>
+                                    <h3 class="profile-name">Nick Herasimenka</h3>
+                                    <p class="profile-country">United States</p>
+                                    <div class="social-media-icons">
+                                        <img class="media-icon" src="./images/twitter.png" alt="twitter">
+                                        <img class="media-icon" src="./images/facebook.png" alt="facebook">
+                                        <img class="media-icon" src="./images/linkedin.png" alt="linkedin">
+                                        <img class="media-icon" src="./images/whatsapp.png" alt="whatsapp">
+                                    </div>
+
+                                </div>
+
+                                <div>
+                                    <div class="users-top-container">
+                                        <h1 class="user-heading">Our Users</h1>
+                                        <img src="./images/options.svg" alt="">
+                                    </div>
+
+                                    <div class="users-container">
+                                        <div class="each-user">
+                                            <img class="user-pic" src="./images/profile-pic.png" alt="">
+                                            <div>
+                                                <h4 class="user-name">Drew James</h4>
+                                                <p class="user-country">United States</p>
+                                            </div>
+                                        </div>
+                                        <p class="user-number">Mobile: 8715674877</p>
+                                    </div>
+
+                                    <div class="users-container">
+                                        <div class="each-user">
+                                            <img class="user-pic" src="./images/profile-pic.png" alt="">
+                                            <div>
+                                                <h4 class="user-name">Drew James</h4>
+                                                <p class="user-country">United States</p>
+                                            </div>
+                                        </div>
+                                        <p class="user-number">Mobile: 8715674877</p>
+                                    </div>
+
+                                    <div class="users-container">
+                                        <div class="each-user">
+                                            <img class="user-pic" src="./images/profile-pic.png" alt="">
+                                            <div>
+                                                <h4 class="user-name">Drew James</h4>
+                                                <p class="user-country">United States</p>
+                                            </div>
+                                        </div>
+                                        <p class="user-number">Mobile: 8715674877</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-videos"></div>
+                        </div>
+
+                        
+                    </div>
+                    <div class="mobile-view-product-videos">Product videos</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
